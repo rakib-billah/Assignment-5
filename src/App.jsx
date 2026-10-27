@@ -23,7 +23,7 @@ function App() {
       <Suspense fallback={<Loading></Loading>}>
         <Mainlayout getData={getData()}></Mainlayout>
       </Suspense>
-      <ToastContainerr />
+      <ToastContainer />
       <Fotter></Fotter>
     </>
   );
