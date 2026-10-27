@@ -47,4 +47,5 @@ What is conditional rendering? Show one place you used it (example: the empty st
 Ans: Conditional rendering means showing different UI elements based on a condition
 
 How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+
 Ans:We use lifting state up to move shared state to a common parent component and pass it to child components through props.
