@@ -14,10 +14,10 @@ const AllcardFunction = ({ cardDetails, addtoCard, setaddtoCard }) => {
         <div className="grid grid-cols-3 gap-3 mb-12">
           {cardDetails.map((card) => (
             <CardLayout
-              key={card.id}
-              card={card}
-              addtoCard={addtoCard}
-              setaddtoCard={setaddtoCard}
+              key={card.id} 
+              card={card} 
+              addtoCard={addtoCard} 
+              setaddtoCard={setaddtoCard} 
             />
           ))}
         </div>
